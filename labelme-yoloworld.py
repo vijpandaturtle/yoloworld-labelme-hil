@@ -75,7 +75,7 @@ class YOLOWorld2LabelMe(object):
                     results = self.model_predict(image_path)
                     labelme_format = self.convert_yolo_to_labelme(results, image_name, image_path)
 
-                    json_filename = f"{image_name}.json"
+                    json_filename = f"{image_path_output}.json"
                     with open(json_filename, 'w') as json_file:
                         json.dump(labelme_format, json_file, indent=2)
     
