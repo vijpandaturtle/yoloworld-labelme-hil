@@ -15,3 +15,6 @@ pip install -r requirements.txt
 python labelme-yoloworld.py --model <NAME_OF_MODEL_WEIGHT_FILE> --folder <FOLDER_PATH> --width <IMAGE_WIDTH> --height <IMAGE_HEIGHT>
 ```
 4. Now import the directory into LabelMe, and view and edit your labels!
+
+## References
+1. [LabelMe](https://github.com/labelmeai/labelme)
