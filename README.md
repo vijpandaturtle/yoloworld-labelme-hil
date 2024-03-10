@@ -10,8 +10,8 @@ git clone https://github.com/vijpandaturtle/yoloworld-labelme-hil.git
 ```
 pip install -r requirements.txt
 ```
-3. Run the script by passing in the required parameters 
+3. Run the script by passing in the required parameters. By default the labels will be saved in the same directory as the images.
 ```
 python labelme-yoloworld.py --model <NAME_OF_MODEL_WEIGHT_FILE> --folder <FOLDER_PATH> --width <IMAGE_WIDTH> --height <IMAGE_HEIGHT>
 ```
-
+4. Now import the directory into LabelMe, and view and edit your labels!
