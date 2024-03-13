@@ -16,5 +16,9 @@ python labelme-yoloworld.py --model <NAME_OF_MODEL_WEIGHT_FILE> --folder <FOLDER
 ```
 4. Now import the directory into LabelMe, and view and edit your labels!
 
+## Test Environment 
+1. Linux
+2. Python 3.10
+
 ## References
 1. [LabelMe](https://github.com/labelmeai/labelme)
