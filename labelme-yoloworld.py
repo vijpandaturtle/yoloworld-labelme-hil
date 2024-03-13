@@ -59,7 +59,7 @@ class YOLOWorld2LabelMe(object):
                 "mask": None
             }
 
-        custom_format["shapes"].append(shape)
+            custom_format["shapes"].append(shape)
         return custom_format
 
     def process_folder(self):
@@ -89,7 +89,7 @@ if __name__=="__main__":
     parser.add_argument("--height", type=int, required=True, help="Image height.")
     args = parser.parse_args()
   
-    classes = ["person", "rider", "animal", "bus", "motorcycle", "truck", "car", "ambulance", "rickshaw", "traffic sign", "traffic light"]
+    classes = ["person", "bus", "motorcycle", "truck", "car"]
     
     labeller = YOLOWorld2LabelMe(args.model, args.folder, args.width, args.height, classes)
     labeller.process_folder()
