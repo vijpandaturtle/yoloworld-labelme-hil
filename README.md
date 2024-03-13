@@ -15,7 +15,7 @@ pip install -r requirements.txt
 python labelme-yoloworld.py --model <NAME_OF_MODEL_WEIGHT_FILE> --folder <FOLDER_PATH> --width <IMAGE_WIDTH> --height <IMAGE_HEIGHT>
 ```
 4. Now import the directory into LabelMe, and view and edit your labels!
-5. In case you want to change the text prompts for classes, modify the variable "classes" in yoloworld_labelme.py.
+5. In case you want to change the text prompts for classes, modify the variable "classes" in /labelme-yoloworld.py.
 
 ## Test Environment 
 1. Linux
